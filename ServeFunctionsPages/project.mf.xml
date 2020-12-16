@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest>
     <application name="ServeFunctionsPages">
         <crown name="ServeFunctionsPages">
@@ -11,16 +11,10 @@
         </crown>
         <meta key="author">AppSpace Sample</meta>
         <meta key="version">2.5.0</meta>
-        <meta key="licensed">false</meta>
         <meta key="priority">low</meta>
         <meta key="tags">Serves,Page</meta>
         <meta key="read-protected">false</meta>
         <meta key="copy-protected">false</meta>
-        <entry path="pages" default="ServingFunctions.msdd">
-            <file type="application/zip">ServingFunctions.msdd</file>
-        </entry>
-        <entry path="scripts" default="ServingFunctions.lua">
-            <file type="text/x-lua">ServingFunctions.lua</file>
-        </entry>
+        <entry default="ServingFunctions.lua" path="scripts"/>
     </application>
 </manifest>
