@@ -4,7 +4,7 @@
 
 --Start of Function and Event Scope---------------------------------------------
 
--- This is the function which then can be used from a control in the user interface
+---This is the function which then can be used from a control in the user interface
 local function printOnClick()
   print( 'This will be printed to the console when the button on the page is clicked' )
 end
